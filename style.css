@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+
+h1{
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#num{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50%;
+    height: 40px;
+    outline: none;
+    text-indent: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: beige;
+}
+
+#num::placeholder{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 50%;
+}
+
+#btn{
+    margin-left: 10px;
+    height: 35px;
+    width: 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.1);
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+#btn:hover{ 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    width: 72px;
+    height: 37px;
+    font-weight: 400;
+}
+
+.results{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    margin: 20px;    
+}
+
+.footer-line{
+    position: relative;
+    margin-top: 300px;
+}
+
+.main-info{
+    font-size: 25px;
+}
+
+.clear-input{
+    margin-bottom: 15px;
+}
+
